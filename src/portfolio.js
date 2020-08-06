@@ -37,7 +37,7 @@ const skillsSection = {
     ),
     emoji("Single page applications and APIs"),
     emoji(
-      "Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "Integration of third party services such as Firebase"
     ),
   ],
 
@@ -81,10 +81,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database",
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws",
-    },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws",
+    // },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire",
@@ -129,13 +129,12 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Freelance",
       companylogo: require("./assets/images/freelance.png"),
-      date: "May 2018 – Present",
-      desc:
-        "Working on commercial and personal projects ",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      // ],
+      date: "May 2020 – Present",
+      desc: "Working on commercial and personal projects ",
+      descBullets: [
+        "Fixing bugs and implementing new features to projects that I am working on",
+        "Developing personal projects and leveling up on some  technologies ",
+      ],
     },
     {
       role: "Software Engineer",
@@ -145,12 +144,12 @@ const workExperiences = {
       desc:
         "A typical day at Andela involves working on a large codebase, attend sprint planning sessions, reviewing Pull Requests, attend stand-ups, and coaching sessions.",
       descBullets: [
-          "Contributed to Andela's open-source project known as Authors Haven backend using python/ Django, which helped developers to share knowledge through writing articles.",
-          "Mentored Ladies who were in women in Tech program in front-end development using javascript, React, Html, and CSS",
-          "Optimized the performance of the in-house tool(Andelamedia)frontend by doing necessary upgrades and refactoring thecodebase(VueJs/Vuex)",
-          "Increased efficiency in booking meeting rooms by integrating google calendar and zoom API with Coverage, a tool for scheduling meetings(React, Redux, and python ).",
-          "Increased team efficiency by pair programming which led to the completion of the frontend of Author's Heaven one week before it's actual MVP(React/Redux)"
-        ],
+        "Contributed to Andela's open-source project known as Authors Haven backend using python/ Django, which helped developers to share knowledge through writing articles.",
+        "Mentored Ladies who were in women in Tech program in front-end development using javascript, React, Html, and CSS",
+        "Optimized the performance of the in-house tool(Andelamedia)frontend by doing necessary upgrades and refactoring thecodebase(VueJs/Vuex)",
+        "Increased efficiency in booking meeting rooms by integrating google calendar and zoom API with Coverage, a tool for scheduling meetings(React, Redux, and python ).",
+        "Increased team efficiency by pair programming which led to the completion of the frontend of Author's Heaven one week before it's actual MVP(React/Redux)",
+      ],
     },
     {
       role: "Software Engineer(Frontend)",
@@ -160,12 +159,11 @@ const workExperiences = {
       desc:
         " An agricluture plaform aiming at tranforming the lives of local dairy farmers into modern dairy farming through educating them and selling high quality breeds of cattle",
       descBullets: [
-          "Set up and practiced an agile software development methodology that yielded the MVP of the Dairynomics platform.",
-          "Contributed to the development of the frontend of the Dairynomics using Vuejs and Vuex that connected farmers to the modern market",
-          "Suggested and implemented the improvements to existing features that increased the system performance",
-          "Fixed bugs and refactored the codebase of Cowsoko platform that increased it's availability to users"
-
-        ],
+        "Set up and practiced an agile software development methodology that yielded the MVP of the Dairynomics platform.",
+        "Contributed to the development of the frontend of the Dairynomics using Vuejs and Vuex that connected farmers to the modern market",
+        "Suggested and implemented the improvements to existing features that increased the system performance",
+        "Fixed bugs and refactored the codebase of Cowsoko platform that increased it's availability to users",
+      ],
     },
   ],
 };
@@ -179,58 +177,58 @@ const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
 };
 
-// Some Big Projects You have worked with your company
-
-const bigProjects = {
-  title: "Projects",
-  subtitle: "Projects that I have worked on",
-  projects: [
-    {
-      image: require("./assets/images/dairy.png"),
-      link: "https://cowsoko.com/",
-    },
-    {
-      image: require("./assets/images/nomics.png"),
-      link: "https://dairynomics.netlify.app/onboarding",
-    },
-    
-    {
-      image: require("./assets/images/shop.png"),
-      link: "https://cloth-ug-live.herokuapp.com/",
-    },
-    
-  ],
-};
 
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications"),
+  title: emoji("Projects"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "List of projects that I have worked ",
 
   achivementsCards: [
-  
     {
-      title: "Single-Page Application Developer",
+      title: "Single-Page Application",
       subtitle:
         "Developed a dairy farming management tool that connects local farmers to modern market ",
       image: require("./assets/images/nomics.png"),
       footerLink: [
         {
           name: "Dairynomics",
-          url:
-            "https://dairynomics.netlify.app/onboarding",
+          url: "https://dairynomics.netlify.app/onboarding",
+        },
+      ],
+    },
+    {
+      title: "Agriculture platform",
+      subtitle:
+        "Contributed to the farm management platform that helps farmers in accessing resources about dairyfarming and others ",
+      image: require("./assets/images/cowsoko.png"),
+      footerLink: [
+        {
+          name: "Cowsoko",
+          url: "https://cowsoko.com/",
+        },
+      ],
+    },
+    {
+      title: "Developer management tool",
+      subtitle:
+        "Contributed to the myAndela platform that manages developer profiles and their bio data ",
+      image: require("./assets/images/Andela.png"),
+      footerLink: [
+        {
+          name: "MyAndela",
+          url: "https://my.andela.com/login",
         },
       ],
     },
 
     {
-      title: "Mentor",
-      subtitle: "Mentored ladies in women in tech programme in developing web applications using html, css javascript and React as framwork",
+      title: "Ecommerce",
+      subtitle:
+        "Mentored ladies in women in tech programme in developing web applications using html, css javascript and React as framwork",
       image: require("./assets/images/women.png"),
       footerLink: [
-
         {
           name: "Clothing",
           url: "https://cloth-ug-live.herokuapp.com/",
@@ -240,59 +238,6 @@ const achievementSection = {
   ],
 };
 
-// Blogs Section
-
-// const blogSection = {
-//   title: "Blogs",
-//   subtitle:
-//     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
-//   blogs: [
-//     {
-//       url:
-//         "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-//       description:
-//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
-//     },
-//     {
-//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-//       title: "Why REACT is The Best?",
-//       description:
-//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
-//     },
-//   ],
-// };
-
-// Talks Sections
-
-// const talkSection = {
-//   title: "TALKS",
-//   subtitle: emoji(
-//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-//   ),
-
-//   talks: [
-//     {
-//       title: "Build Actions For Google Assistant",
-//       subtitle: "Codelab at GDG DevFest Karachi 2019",
-//       slides_url: "https://bit.ly/saadpasta-slides",
-//       event_url: "https://www.facebook.com/events/2339906106275053/",
-//     },
-//   ],
-// };
-
-// Podcast Section
-
-// const podcastSection = {
-//   title: emoji("Podcast 🎙️"),
-//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-//   // Please Provide with Your Podcast embeded Link
-//   podcast: [
-//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
-//   ],
-// };
 
 const contactInfo = {
   title: emoji("Contact Me"),
@@ -302,11 +247,6 @@ const contactInfo = {
   email_address: "samrubarema6@gmail.com",
 };
 
-//Twitter Section
-
-// const twitterDetails = {
-//   userName: "twitter", //Replace "twitter" with your twitter username without @
-// };
 export {
   greeting,
   socialMediaLinks,
@@ -314,7 +254,7 @@ export {
   techStack,
   workExperiences,
   openSource,
-  bigProjects,
+  // bigProjects,
   achievementSection,
   // talkSection,
   // podcastSection,
