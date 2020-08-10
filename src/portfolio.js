@@ -9,7 +9,7 @@ const greeting = {
   username: "Rub's",
   title: "Hi all, I'm Sam",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python/ Vuejs and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python/ Vuejs /and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1uw5vs2jBcBQWQq6YcfC1WmOewHasm5Qt/view?usp=sharing",
@@ -106,15 +106,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend(ReactJs/Redux,VueJs/Vuex)", //Insert stack or technology you have experience in
       progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Backend(python)",
       progressPercentage: "70%",
     },
     {
-      Stack: "Programming",
+      Stack: "Programming(javascript && Python)",
       progressPercentage: "60%",
     },
   ],
