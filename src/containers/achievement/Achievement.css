@@ -13,6 +13,9 @@
   height: 250px;
   width: 250px;
 }
+.card.footerLink {
+  color: blue;
+}
 
 .card-title {
   color: black;
@@ -56,13 +59,13 @@
   flex-wrap: wrap;
 }
 .certificate-card-footer > p {
-  color: #333333;
+  color: blue;
   cursor: pointer;
   margin-right: 10px;
   text-align: center;
 }
 .certificate-card-footer > p:hover {
-  color: #868e96;
+  color:royalblue;
 }
 /* Media Query */
 @media (max-width: 1380px) {
