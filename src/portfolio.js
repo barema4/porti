@@ -155,7 +155,7 @@ const workExperiences = {
       role: "Software Engineer(Frontend)",
       company: "Cowsoko Narobi Kenya",
       companylogo: require("./assets/images/cowsoko.png"),
-      date: "Apirl 2018 – Nov 2018",
+      date: "Jan 2019 – July 2019",
       desc:
         " An agricluture plaform aiming at tranforming the lives of local dairy farmers into modern dairy farming through educating them and selling high quality breeds of cattle",
       descBullets: [
