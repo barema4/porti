@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12b333c7958f0cb8d030cd613ce7f24a",
+    "revision": "d1f01afb8e6b4210cb299624eeee073b",
     "url": "/porti/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/porti/static/css/4.54df59d4.chunk.css"
   },
   {
-    "revision": "cbd71753ba900bac086f",
+    "revision": "658f0f35f34e17e40ab6",
     "url": "/porti/static/css/main.da284773.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/porti/static/js/4.974a26da.chunk.js"
   },
   {
-    "revision": "cbd71753ba900bac086f",
-    "url": "/porti/static/js/main.f38d9797.chunk.js"
+    "revision": "658f0f35f34e17e40ab6",
+    "url": "/porti/static/js/main.2edb9a91.chunk.js"
   },
   {
     "revision": "44646c9f33964afae2ce",
