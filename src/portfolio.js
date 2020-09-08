@@ -21,9 +21,6 @@ const socialMediaLinks = {
   github: "https://github.com/barema4",
   linkedin: "https://www.linkedin.com/in/rubarema-sam/",
   gmail: "samrubarema6@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
@@ -36,9 +33,7 @@ const skillsSection = {
       "Develop highly interactive Front end / User Interfaces for your web applications"
     ),
     emoji("Single page applications and APIs"),
-    emoji(
-      "Integration of third party services such as Firebase"
-    ),
+    emoji("Integration of third party services such as Firebase"),
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -98,7 +93,9 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker",
     },
   ],
-};
+}; // gitlab: "https://gitlab.com/saadpasta",
+// facebook: "https://www.facebook.com/saad.pasta7",
+// Instagram and Twitter are also supported in the links!
 
 // Your top 3 proficient stacks/tech experience
 
@@ -110,7 +107,7 @@ const techStack = {
       progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend(python)",
+      Stack: "Backend(python & NodeJs)",
       progressPercentage: "70%",
     },
     {
@@ -177,13 +174,11 @@ const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
 };
 
-
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
   title: emoji("Projects"),
-  subtitle:
-    "List of projects that I have worked ",
+  subtitle: "List of projects that I have worked ",
 
   achivementsCards: [
     {
@@ -237,7 +232,6 @@ const achievementSection = {
     },
   ],
 };
-
 
 const contactInfo = {
   title: emoji("Contact Me"),
